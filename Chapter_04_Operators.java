@@ -285,6 +285,239 @@ Output:
 true
 true
 
+
+=========================================================
+12. What are Logical Operators?
+=========================================================
+
+Logical Operators are used to combine or reverse boolean expressions.
+
+They work with boolean values (true or false) and always return a boolean result.
+
+Logical operators are commonly used with relational operators in decision-making.
+
+Example:
+
+(5 > 3) && (10 > 5)   → true
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        boolean result = (5 > 3) && (10 > 5);
+
+        System.out.println(result);
+    }
+}
+---------------------------------------------------------
+Output:
+true
+
+=========================================================
+13. Logical Operators in Java
+=========================================================
+
+Operator        Meaning
+
+&&              Logical AND
+||              Logical OR
+!               Logical NOT
+
+=========================================================
+14. Logical AND (&&)
+=========================================================
+
+Returns true only if both conditions are true.
+
+Truth Table
+
+Condition 1    Condition 2    Result
+
+true           true           true
+true           false          false
+false          true           false
+false          false          false
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        int age = 20;
+        int marks = 80;
+
+        boolean result = (age >= 18) && (marks >= 35);
+
+        System.out.println(result);
+    }
+}
+---------------------------------------------------------
+Output:
+true
+
+=========================================================
+15. Logical OR (||)
+=========================================================
+
+Returns true if at least one condition is true.
+
+Truth Table
+
+Condition 1    Condition 2    Result
+
+true           true           true
+true           false          true
+false          true           true
+false          false          false
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        int age = 16;
+        boolean parentPermission = true;
+
+        boolean result = (age >= 18) || parentPermission;
+
+        System.out.println(result);
+    }
+}
+---------------------------------------------------------
+Output:
+true
+
+=========================================================
+16. Logical NOT (!)
+=========================================================
+
+Reverses the boolean value.
+
+true  → false
+
+false → true
+
+Truth Table
+
+Input      Output
+
+true       false
+false      true
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        boolean isLoggedIn = false;
+
+        System.out.println(!isLoggedIn);
+    }
+}
+---------------------------------------------------------
+Output:
+true
+
+=========================================================
+17. Combining Multiple Conditions
+=========================================================
+
+Logical operators are commonly used with relational operators.
+
+Example:
+
+(x > y) && (a < b)
+
+Both conditions must be true for the result to be true.
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        int x = 10;
+        int y = 5;
+        int a = 3;
+        int b = 8;
+
+        boolean result = (x > y) && (a < b);
+
+        System.out.println(result);
+    }
+}
+---------------------------------------------------------
+Output:
+true
+
+=========================================================
+18. Short-Circuit Evaluation
+=========================================================
+
+Java uses short-circuit logical operators.
+
+&& (AND)
+
+• If the first condition is false,
+  Java does not evaluate the second condition.
+
+|| (OR)
+
+• If the first condition is true,
+  Java does not evaluate the second condition.
+
+This improves program performance.
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        int x = 5;
+        int y = 10;
+
+        boolean result = (x > y) && (y > 5);
+
+        System.out.println(result);
+    }
+}
+---------------------------------------------------------
+Output:
+false
+
+Explanation:
+
+The first condition is false, so Java skips checking the second condition.
+
+---------------------------------------------------------
+RUNNABLE CODE:
+---------------------------------------------------------
+public class Chapter_04_Operators {
+    public static void main(String[] args) {
+
+        int x = 10;
+        int y = 5;
+
+        boolean result = (x > y) || (y > 20);
+
+        System.out.println(result);
+    }
+}
+---------------------------------------------------------
+Output:
+true
+
+Explanation:
+
+The first condition is true, so Java skips checking the second condition.
+
+
 =========================================================
 Key Points
 =========================================================
