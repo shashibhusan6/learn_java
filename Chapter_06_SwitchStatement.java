@@ -195,4 +195,96 @@ Interview Notes
 =========================================
 End of Chapter 06
 =========================================
-*/
+ */
+
+//REAL RUNABLE EXAMPLE 
+public class Chapter_06_SwitchStatement {
+
+    public static void main(String[] args) {
+
+        // Example 1: Basic Switch Statement
+        int day = 3;
+
+        System.out.println("Example 1:");
+
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+
+            case 2:
+                System.out.println("Tuesday");
+                break;
+
+            case 3:
+                System.out.println("Wednesday");
+                break;
+
+            case 4:
+                System.out.println("Thursday");
+                break;
+
+            case 5:
+                System.out.println("Friday");
+                break;
+
+            case 6:
+                System.out.println("Saturday");
+                break;
+
+            case 7:
+                System.out.println("Sunday");
+                break;
+
+            default:
+                System.out.println("Invalid Day");
+        }
+
+        // Example 2: Fall Through (No break)
+        System.out.println("\nExample 2: Without break");
+
+        int number = 2;
+
+        switch (number) {
+            case 1:
+                System.out.println("One");
+
+            case 2:
+                System.out.println("Two");
+
+            case 3:
+                System.out.println("Three");
+        }
+
+        // Example 3: Using break
+        System.out.println("\nExample 3: With break");
+
+        switch (number) {
+            case 1:
+                System.out.println("One");
+                break;
+
+            case 2:
+                System.out.println("Two");
+                break;
+
+            case 3:
+                System.out.println("Three");
+                break;
+        }
+
+        // Example 4: Default Case
+        System.out.println("\nExample 4: Default Case");
+
+        int value = 8;
+
+        switch (value) {
+            case 1:
+                System.out.println("Monday");
+                break;
+
+            default:
+                System.out.println("Invalid Day");
+        }
+    }
+}
