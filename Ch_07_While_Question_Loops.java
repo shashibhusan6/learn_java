@@ -134,3 +134,255 @@ Rule:
 */
 
 
+
+
+
+/*
+=========================================
+            EASY LEVEL
+=========================================
+*/
+
+
+// Q1. Print numbers from 1 to 10.
+
+class Example1 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
+        }
+
+    }
+}
+
+
+// Q2. Print numbers from 10 to 1.
+
+class Example2 {
+    public static void main(String[] args) {
+
+        int i = 10;
+
+        while (i >= 1) {
+            System.out.println(i);
+            i--;
+        }
+
+    }
+}
+
+
+// Q3. Print numbers from 1 to 100.
+
+class Example3 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 100) {
+            System.out.println(i);
+            i++;
+        }
+
+    }
+}
+
+
+// Q4. Print numbers from 50 to 100.
+
+class Example4 {
+    public static void main(String[] args) {
+
+        int i = 50;
+
+        while (i <= 100) {
+            System.out.println(i);
+            i++;
+        }
+
+    }
+}
+
+
+// Q5. Print even numbers from 1 to 20.
+
+class Example5 {
+    public static void main(String[] args) {
+
+        int i = 2;
+
+        while (i <= 20) {
+            System.out.println(i);
+            i += 2;
+        }
+
+    }
+}
+
+
+// Q6. Print odd numbers from 1 to 20.
+
+class Example6 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 20) {
+            System.out.println(i);
+            i += 2;
+        }
+
+    }
+}
+
+
+// Q7. Print multiples of 5 from 5 to 50.
+
+class Example7 {
+    public static void main(String[] args) {
+
+        int i = 5;
+
+        while (i <= 50) {
+            System.out.println(i);
+            i += 5;
+        }
+
+    }
+}
+
+
+// Q8. Print numbers from -10 to 10.
+
+class Example8 {
+    public static void main(String[] args) {
+
+        int i = -10;
+
+        while (i <= 10) {
+            System.out.println(i);
+            i++;
+        }
+
+    }
+}
+
+
+// Q9. Print squares of numbers from 1 to 10.
+
+class Example9 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 10) {
+            System.out.println(i * i);
+            i++;
+        }
+
+    }
+}
+
+
+// Q10. Print cubes of numbers from 1 to 10.
+
+class Example10 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 10) {
+            System.out.println(i * i * i);
+            i++;
+        }
+
+    }
+}
+
+
+// Q11. Print the multiplication table of 7.
+
+class Example11 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 10) {
+            System.out.println("7 x " + i + " = " + (7 * i));
+            i++;
+        }
+
+    }
+}
+
+
+// Q12. Print the multiplication table of 13.
+
+class Example12 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        while (i <= 10) {
+            System.out.println("13 x " + i + " = " + (13 * i));
+            i++;
+        }
+
+    }
+}
+
+
+// Q13. Print all alphabets from A to Z.
+
+class Example13 {
+    public static void main(String[] args) {
+
+        char ch = 'A';
+
+        while (ch <= 'Z') {
+            System.out.println(ch);
+            ch++;
+        }
+
+    }
+}
+
+
+// Q14. Print all lowercase alphabets from a to z.
+
+class Example14 {
+    public static void main(String[] args) {
+
+        char ch = 'a';
+
+        while (ch <= 'z') {
+            System.out.println(ch);
+            ch++;
+        }
+
+    }
+}
+
+
+// Q15. Print numbers from 100 to 0 by decreasing 5 every time.
+
+class Example15 {
+    public static void main(String[] args) {
+
+        int i = 100;
+
+        while (i >= 0) {
+            System.out.println(i);
+            i -= 5;
+        }
+
+    }
+}
+
+
+
+
