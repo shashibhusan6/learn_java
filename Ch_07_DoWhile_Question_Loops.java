@@ -80,3 +80,70 @@ Happy Coding!
 
 
 
+/*
+=========================================
+        MEDIUM LEVEL
+=========================================
+*/
+
+
+// Q16. Find the sum of numbers from 1 to 10.
+
+
+// Q17. Find the sum of numbers from 1 to 100.
+
+
+// Q18. Find the sum of even numbers from 1 to 100.
+
+
+// Q19. Find the sum of odd numbers from 1 to 100.
+
+
+// Q20. Find the factorial of a number.
+
+
+// Q21. Reverse the digits of a number.
+
+
+// Q22. Count the number of digits in a number.
+
+
+// Q23. Find the sum of digits of a number.
+
+
+// Q24. Check whether a number is a palindrome.
+
+
+// Q25. Print the Fibonacci series up to N terms.
+
+
+// Q26. Find the largest digit in a number.
+
+
+// Q27. Find the smallest digit in a number.
+
+
+// Q28. Count even and odd digits in a number.
+
+
+// Q29. Print all factors of a number.
+
+
+// Q30. Check whether a number is a prime number.
+
+
+/*
+=========================================
+      END OF MEDIUM LEVEL
+=========================================
+
+Rules:
+1. Use only do-while loops.
+2. Do not use while or for loops.
+3. Try to solve each problem before looking
+   at the solution.
+4. Most of these questions are frequently
+   asked in placement interviews.
+
+=========================================
+*/
