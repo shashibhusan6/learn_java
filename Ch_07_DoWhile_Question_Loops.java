@@ -865,3 +865,443 @@ Rules:
 
 =========================================
 */
+
+
+
+
+
+
+
+
+/*
+=========================================
+            HARD LEVEL
+=========================================
+*/
+
+
+// Q31. Find the GCD (HCF) of two numbers.
+
+class Example31 {
+    public static void main(String[] args) {
+
+        int a = 36;
+        int b = 24;
+
+        do {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        } while (b != 0);
+
+        System.out.println("GCD = " + a);
+
+    }
+}
+
+
+// Q32. Find the LCM of two numbers.
+
+class Example32 {
+    public static void main(String[] args) {
+
+        int a = 12;
+        int b = 18;
+
+        int x = a;
+        int y = b;
+
+        do {
+            int temp = y;
+            y = x % y;
+            x = temp;
+        } while (y != 0);
+
+        int gcd = x;
+        int lcm = (a * b) / gcd;
+
+        System.out.println("LCM = " + lcm);
+
+    }
+}
+
+
+// Q33. Check whether a number is an Armstrong number.
+
+class Example33 {
+    public static void main(String[] args) {
+
+        int num = 153;
+        int original = num;
+        int sum = 0;
+
+        do {
+            int digit = num % 10;
+            sum += digit * digit * digit;
+            num /= 10;
+        } while (num > 0);
+
+        if (sum == original)
+            System.out.println("Armstrong Number");
+        else
+            System.out.println("Not Armstrong Number");
+
+    }
+}
+
+
+// Q34. Check whether a number is a Strong number.
+
+class Example34 {
+    public static void main(String[] args) {
+
+        int num = 145;
+        int original = num;
+        int sum = 0;
+
+        do {
+
+            int digit = num % 10;
+            int fact = 1;
+            int i = 1;
+
+            if (digit != 0) {
+                do {
+                    fact *= i;
+                    i++;
+                } while (i <= digit);
+            }
+
+            sum += fact;
+            num /= 10;
+
+        } while (num > 0);
+
+        if (sum == original)
+            System.out.println("Strong Number");
+        else
+            System.out.println("Not Strong Number");
+
+    }
+}
+
+
+// Q35. Check whether a number is a Perfect number.
+
+class Example35 {
+    public static void main(String[] args) {
+
+        int num = 28;
+        int i = 1;
+        int sum = 0;
+
+        do {
+
+            if (num % i == 0) {
+                sum += i;
+            }
+
+            i++;
+
+        } while (i < num);
+
+        if (sum == num)
+            System.out.println("Perfect Number");
+        else
+            System.out.println("Not Perfect Number");
+
+    }
+}
+
+
+// Q36. Print all prime numbers between 1 and 100.
+
+class Example36 {
+    public static void main(String[] args) {
+
+        int num = 2;
+
+        do {
+
+            int i = 2;
+            boolean prime = true;
+
+            if (num > 2) {
+                do {
+
+                    if (num % i == 0) {
+                        prime = false;
+                        break;
+                    }
+
+                    i++;
+
+                } while (i < num);
+            }
+
+            if (prime)
+                System.out.println(num);
+
+            num++;
+
+        } while (num <= 100);
+
+    }
+}
+
+
+// Q37. Print all Armstrong numbers between 1 and 1000.
+
+class Example37 {
+    public static void main(String[] args) {
+
+        int num = 1;
+
+        do {
+
+            int temp = num;
+            int sum = 0;
+
+            do {
+                int digit = temp % 10;
+                sum += digit * digit * digit;
+                temp /= 10;
+            } while (temp > 0);
+
+            if (sum == num)
+                System.out.println(num);
+
+            num++;
+
+        } while (num <= 1000);
+
+    }
+}
+
+
+// Q38. Print all Perfect numbers between 1 and 1000.
+
+class Example38 {
+    public static void main(String[] args) {
+
+        int num = 1;
+
+        do {
+
+            int i = 1;
+            int sum = 0;
+
+            do {
+
+                if (num % i == 0)
+                    sum += i;
+
+                i++;
+
+            } while (i < num);
+
+            if (sum == num)
+                System.out.println(num);
+
+            num++;
+
+        } while (num <= 1000);
+
+    }
+}
+
+
+// Q39. Convert a decimal number to binary.
+
+class Example39 {
+    public static void main(String[] args) {
+
+        int num = 25;
+        String binary = "";
+
+        do {
+            binary = (num % 2) + binary;
+            num /= 2;
+        } while (num > 0);
+
+        System.out.println(binary);
+
+    }
+}
+
+
+// Q40. Convert a binary number to decimal.
+
+class Example40 {
+    public static void main(String[] args) {
+
+        int binary = 11001;
+        int decimal = 0;
+        int base = 1;
+
+        do {
+
+            int digit = binary % 10;
+            decimal += digit * base;
+
+            base *= 2;
+            binary /= 10;
+
+        } while (binary > 0);
+
+        System.out.println(decimal);
+
+    }
+}
+
+
+// Q41. Calculate the power of a number (a^b).
+
+class Example41 {
+    public static void main(String[] args) {
+
+        int base = 2;
+        int power = 5;
+        int result = 1;
+        int i = 1;
+
+        do {
+            result *= base;
+            i++;
+        } while (i <= power);
+
+        System.out.println(result);
+
+    }
+}
+
+
+// Q42. Find the product of digits of a number.
+
+class Example42 {
+    public static void main(String[] args) {
+
+        int num = 234;
+        int product = 1;
+
+        do {
+            product *= (num % 10);
+            num /= 10;
+        } while (num > 0);
+
+        System.out.println(product);
+
+    }
+}
+
+
+// Q43. Remove all zeros from a number.
+
+class Example43 {
+    public static void main(String[] args) {
+
+        int num = 1020304;
+        int result = 0;
+        int place = 1;
+
+        do {
+
+            int digit = num % 10;
+
+            if (digit != 0) {
+                result = digit * place + result;
+                place *= 10;
+            }
+
+            num /= 10;
+
+        } while (num > 0);
+
+        System.out.println(result);
+
+    }
+}
+
+
+// Q44. Find the second largest digit in a number.
+
+class Example44 {
+    public static void main(String[] args) {
+
+        int num = 958472;
+        int largest = -1;
+        int second = -1;
+
+        do {
+
+            int digit = num % 10;
+
+            if (digit > largest) {
+                second = largest;
+                largest = digit;
+            } else if (digit > second && digit != largest) {
+                second = digit;
+            }
+
+            num /= 10;
+
+        } while (num > 0);
+
+        System.out.println("Second Largest Digit = " + second);
+
+    }
+}
+
+
+// Q45. Print this pattern using do-while loops only.
+
+/*
+*
+**
+***
+****
+*****
+*/
+
+class Example45 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+
+            int j = 1;
+
+            do {
+                System.out.print("*");
+                j++;
+            } while (j <= i);
+
+            System.out.println();
+            i++;
+
+        } while (i <= 5);
+
+    }
+}
+
+
+/*
+=========================================
+         END OF HARD LEVEL
+=========================================
+
+Congratulations!
+
+You have completed all 45 Do-While Loop practice questions.
+
+Next Topics:
+1. Nested Loops
+2. Star Patterns
+3. Number Patterns
+4. Arrays
+
+=========================================
+*/
+
+
