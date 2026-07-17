@@ -226,3 +226,270 @@ Rules:
 =========================================
 
 */
+
+
+
+// ANSWER //
+
+/*
+=========================================
+    CHAPTER 07 - DO WHILE LOOP PRACTICE
+=========================================
+
+File Name:
+Ch_07_DoWhile_Question_Loops.java
+
+Total Questions : 15
+Level : Easy
+*/
+
+
+// Q1. Print numbers from 1 to 10.
+
+class Example1 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 10);
+
+    }
+}
+
+
+// Q2. Print numbers from 10 to 1.
+
+class Example2 {
+    public static void main(String[] args) {
+
+        int i = 10;
+
+        do {
+            System.out.println(i);
+            i--;
+        } while (i >= 1);
+
+    }
+}
+
+
+// Q3. Print numbers from 1 to 100.
+
+class Example3 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 100);
+
+    }
+}
+
+
+// Q4. Print numbers from 50 to 100.
+
+class Example4 {
+    public static void main(String[] args) {
+
+        int i = 50;
+
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 100);
+
+    }
+}
+
+
+// Q5. Print even numbers from 1 to 20.
+
+class Example5 {
+    public static void main(String[] args) {
+
+        int i = 2;
+
+        do {
+            System.out.println(i);
+            i += 2;
+        } while (i <= 20);
+
+    }
+}
+
+
+// Q6. Print odd numbers from 1 to 20.
+
+class Example6 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println(i);
+            i += 2;
+        } while (i <= 20);
+
+    }
+}
+
+
+// Q7. Print multiples of 5 from 5 to 50.
+
+class Example7 {
+    public static void main(String[] args) {
+
+        int i = 5;
+
+        do {
+            System.out.println(i);
+            i += 5;
+        } while (i <= 50);
+
+    }
+}
+
+
+// Q8. Print numbers from -10 to 10.
+
+class Example8 {
+    public static void main(String[] args) {
+
+        int i = -10;
+
+        do {
+            System.out.println(i);
+            i++;
+        } while (i <= 10);
+
+    }
+}
+
+
+// Q9. Print squares of numbers from 1 to 10.
+
+class Example9 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println(i * i);
+            i++;
+        } while (i <= 10);
+
+    }
+}
+
+
+// Q10. Print cubes of numbers from 1 to 10.
+
+class Example10 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println(i * i * i);
+            i++;
+        } while (i <= 10);
+
+    }
+}
+
+
+// Q11. Print the multiplication table of 7.
+
+class Example11 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println("7 x " + i + " = " + (7 * i));
+            i++;
+        } while (i <= 10);
+
+    }
+}
+
+
+// Q12. Print the multiplication table of 13.
+
+class Example12 {
+    public static void main(String[] args) {
+
+        int i = 1;
+
+        do {
+            System.out.println("13 x " + i + " = " + (13 * i));
+            i++;
+        } while (i <= 10);
+
+    }
+}
+
+
+// Q13. Print all uppercase alphabets from A to Z.
+
+class Example13 {
+    public static void main(String[] args) {
+
+        char ch = 'A';
+
+        do {
+            System.out.println(ch);
+            ch++;
+        } while (ch <= 'Z');
+
+    }
+}
+
+
+// Q14. Print all lowercase alphabets from a to z.
+
+class Example14 {
+    public static void main(String[] args) {
+
+        char ch = 'a';
+
+        do {
+            System.out.println(ch);
+            ch++;
+        } while (ch <= 'z');
+
+    }
+}
+
+
+// Q15. Print numbers from 100 to 0 by decreasing 5 every time.
+
+class Example15 {
+    public static void main(String[] args) {
+
+        int i = 100;
+
+        do {
+            System.out.println(i);
+            i -= 5;
+        } while (i >= 0);
+
+    }
+}
+
+
+/*
+=========================================
+           END OF PRACTICE SET
+=========================================
+
+Happy Coding!
+=========================================
+*/
+
