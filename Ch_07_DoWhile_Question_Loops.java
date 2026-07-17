@@ -493,3 +493,375 @@ Happy Coding!
 =========================================
 */
 
+
+
+
+
+
+
+
+
+
+/*
+=========================================
+            MEDIUM LEVEL
+=========================================
+*/
+
+
+// Q16. Find the sum of numbers from 1 to 10.
+
+class Example16 {
+    public static void main(String[] args) {
+
+        int i = 1;
+        int sum = 0;
+
+        do {
+            sum += i;
+            i++;
+        } while (i <= 10);
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q17. Find the sum of numbers from 1 to 100.
+
+class Example17 {
+    public static void main(String[] args) {
+
+        int i = 1;
+        int sum = 0;
+
+        do {
+            sum += i;
+            i++;
+        } while (i <= 100);
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q18. Find the sum of even numbers from 1 to 100.
+
+class Example18 {
+    public static void main(String[] args) {
+
+        int i = 2;
+        int sum = 0;
+
+        do {
+            sum += i;
+            i += 2;
+        } while (i <= 100);
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q19. Find the sum of odd numbers from 1 to 100.
+
+class Example19 {
+    public static void main(String[] args) {
+
+        int i = 1;
+        int sum = 0;
+
+        do {
+            sum += i;
+            i += 2;
+        } while (i <= 100);
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q20. Find the factorial of a number.
+
+class Example20 {
+    public static void main(String[] args) {
+
+        int num = 5;
+        int i = 1;
+        int fact = 1;
+
+        do {
+            fact *= i;
+            i++;
+        } while (i <= num);
+
+        System.out.println("Factorial = " + fact);
+
+    }
+}
+
+
+// Q21. Reverse the digits of a number.
+
+class Example21 {
+    public static void main(String[] args) {
+
+        int num = 12345;
+        int reverse = 0;
+
+        do {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num /= 10;
+        } while (num > 0);
+
+        System.out.println("Reverse = " + reverse);
+
+    }
+}
+
+
+// Q22. Count the number of digits in a number.
+
+class Example22 {
+    public static void main(String[] args) {
+
+        int num = 987654;
+        int count = 0;
+
+        do {
+            count++;
+            num /= 10;
+        } while (num > 0);
+
+        System.out.println("Digits = " + count);
+
+    }
+}
+
+
+// Q23. Find the sum of digits of a number.
+
+class Example23 {
+    public static void main(String[] args) {
+
+        int num = 12345;
+        int sum = 0;
+
+        do {
+            sum += num % 10;
+            num /= 10;
+        } while (num > 0);
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q24. Check whether a number is a palindrome.
+
+class Example24 {
+    public static void main(String[] args) {
+
+        int num = 121;
+        int original = num;
+        int reverse = 0;
+
+        do {
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+            num /= 10;
+        } while (num > 0);
+
+        if (original == reverse) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+
+    }
+}
+
+
+// Q25. Print the Fibonacci series up to N terms.
+
+class Example25 {
+    public static void main(String[] args) {
+
+        int n = 10;
+        int a = 0;
+        int b = 1;
+        int count = 1;
+
+        do {
+            System.out.print(a + " ");
+
+            int c = a + b;
+            a = b;
+            b = c;
+
+            count++;
+        } while (count <= n);
+
+    }
+}
+
+
+// Q26. Find the largest digit in a number.
+
+class Example26 {
+    public static void main(String[] args) {
+
+        int num = 583921;
+        int largest = 0;
+
+        do {
+            int digit = num % 10;
+
+            if (digit > largest) {
+                largest = digit;
+            }
+
+            num /= 10;
+
+        } while (num > 0);
+
+        System.out.println("Largest Digit = " + largest);
+
+    }
+}
+
+
+// Q27. Find the smallest digit in a number.
+
+class Example27 {
+    public static void main(String[] args) {
+
+        int num = 583921;
+        int smallest = 9;
+
+        do {
+            int digit = num % 10;
+
+            if (digit < smallest) {
+                smallest = digit;
+            }
+
+            num /= 10;
+
+        } while (num > 0);
+
+        System.out.println("Smallest Digit = " + smallest);
+
+    }
+}
+
+
+// Q28. Count even and odd digits in a number.
+
+class Example28 {
+    public static void main(String[] args) {
+
+        int num = 123456789;
+        int even = 0;
+        int odd = 0;
+
+        do {
+
+            int digit = num % 10;
+
+            if (digit % 2 == 0) {
+                even++;
+            } else {
+                odd++;
+            }
+
+            num /= 10;
+
+        } while (num > 0);
+
+        System.out.println("Even Digits = " + even);
+        System.out.println("Odd Digits = " + odd);
+
+    }
+}
+
+
+// Q29. Print all factors of a number.
+
+class Example29 {
+    public static void main(String[] args) {
+
+        int num = 24;
+        int i = 1;
+
+        do {
+
+            if (num % i == 0) {
+                System.out.println(i);
+            }
+
+            i++;
+
+        } while (i <= num);
+
+    }
+}
+
+
+// Q30. Check whether a number is a prime number.
+
+class Example30 {
+    public static void main(String[] args) {
+
+        int num = 17;
+        int i = 2;
+        boolean isPrime = true;
+
+        if (num <= 1) {
+            isPrime = false;
+        } else {
+
+            do {
+
+                if (num % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+
+                i++;
+
+            } while (i < num);
+
+        }
+
+        if (isPrime) {
+            System.out.println("Prime");
+        } else {
+            System.out.println("Not Prime");
+        }
+
+    }
+}
+
+
+/*
+=========================================
+        END OF MEDIUM LEVEL
+=========================================
+
+Rules:
+1. Use only do-while loops.
+2. Do not use while or for loops.
+3. Try to solve each problem before looking
+   at the solution.
+4. Most of these questions are frequently
+   asked in placement interviews.
+
+=========================================
+*/
