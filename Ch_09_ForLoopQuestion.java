@@ -149,3 +149,100 @@ Rules:
 */
 
 
+/*
+=========================================
+             HARD LEVEL
+=========================================
+*/
+
+
+// Q31. Find the GCD (HCF) of two numbers.
+
+
+// Q32. Find the LCM of two numbers.
+
+
+// Q33. Check whether a number is an Armstrong number.
+
+
+// Q34. Check whether a number is a Strong number.
+
+
+// Q35. Check whether a number is a Perfect number.
+
+
+// Q36. Print all prime numbers between 1 and 100.
+
+
+// Q37. Print all Armstrong numbers between 1 and 1000.
+
+
+// Q38. Print all Perfect numbers between 1 and 1000.
+
+
+// Q39. Convert a decimal number to binary.
+
+
+// Q40. Convert a binary number to decimal.
+
+
+// Q41. Calculate the power of a number (a^b).
+
+
+// Q42. Find the product of digits of a number.
+
+
+// Q43. Remove all zeros from a number.
+
+
+// Q44. Find the second largest digit in a number.
+
+
+// Q45. Print this pattern using for loops only.
+
+/*
+*
+**
+***
+****
+*****
+*/
+
+
+/*
+=========================================
+         END OF HARD LEVEL
+=========================================
+
+Rules:
+
+1. Solve every question using ONLY for loops.
+2. Do not use while or do-while loops.
+3. Think about the logic before writing code.
+4. Some questions may require nested for loops.
+5. These are excellent placement-level practice problems.
+
+=========================================
+          CONGRATULATIONS!
+=========================================
+
+You have completed:
+
+✓ Easy Level   (Q1 - Q15)
+✓ Medium Level (Q16 - Q30)
+✓ Hard Level   (Q31 - Q45)
+
+Total Practice Questions: 45
+
+Next Step:
+➡️ Nested For Loops
+➡️ Star Pattern Problems
+➡️ Number Pattern Problems
+➡️ Arrays
+
+Happy Coding! 🚀
+=========================================
+*/
+
+
+
