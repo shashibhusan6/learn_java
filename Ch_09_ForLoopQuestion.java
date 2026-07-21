@@ -246,3 +246,233 @@ Happy Coding! 🚀
 
 
 
+
+
+
+
+
+/*
+=========================================
+    CHAPTER 09 - FOR LOOP PRACTICE
+=========================================
+
+File Name:
+Ch_09_ForLoopQuestion.java
+
+Total Questions : 15
+Level : Easy
+
+Rules:
+1. Solve every question using ONLY for loops.
+2. Do NOT use while or do-while loops.
+3. Try solving yourself before checking the answer.
+
+=========================================
+            EASY LEVEL
+=========================================
+*/
+
+
+// Q1. Print numbers from 1 to 10.
+
+class Example1 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q2. Print numbers from 10 to 1.
+
+class Example2 {
+    public static void main(String[] args) {
+
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q3. Print numbers from 1 to 100.
+
+class Example3 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 100; i++) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q4. Print numbers from 50 to 100.
+
+class Example4 {
+    public static void main(String[] args) {
+
+        for (int i = 50; i <= 100; i++) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q5. Print even numbers from 1 to 20.
+
+class Example5 {
+    public static void main(String[] args) {
+
+        for (int i = 2; i <= 20; i += 2) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q6. Print odd numbers from 1 to 20.
+
+class Example6 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 20; i += 2) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q7. Print multiples of 5 from 5 to 50.
+
+class Example7 {
+    public static void main(String[] args) {
+
+        for (int i = 5; i <= 50; i += 5) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q8. Print numbers from -10 to 10.
+
+class Example8 {
+    public static void main(String[] args) {
+
+        for (int i = -10; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+// Q9. Print squares of numbers from 1 to 10.
+
+class Example9 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i * i);
+        }
+
+    }
+}
+
+
+// Q10. Print cubes of numbers from 1 to 10.
+
+class Example10 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i * i * i);
+        }
+
+    }
+}
+
+
+// Q11. Print the multiplication table of 7.
+
+class Example11 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("7 x " + i + " = " + (7 * i));
+        }
+
+    }
+}
+
+
+// Q12. Print the multiplication table of 13.
+
+class Example12 {
+    public static void main(String[] args) {
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("13 x " + i + " = " + (13 * i));
+        }
+
+    }
+}
+
+
+// Q13. Print all uppercase alphabets from A to Z.
+
+class Example13 {
+    public static void main(String[] args) {
+
+        for (char ch = 'A'; ch <= 'Z'; ch++) {
+            System.out.println(ch);
+        }
+
+    }
+}
+
+
+// Q14. Print all lowercase alphabets from a to z.
+
+class Example14 {
+    public static void main(String[] args) {
+
+        for (char ch = 'a'; ch <= 'z'; ch++) {
+            System.out.println(ch);
+        }
+
+    }
+}
+
+
+// Q15. Print numbers from 100 to 0 by decreasing 5 every time.
+
+class Example15 {
+    public static void main(String[] args) {
+
+        for (int i = 100; i >= 0; i -= 5) {
+            System.out.println(i);
+        }
+
+    }
+}
+
+
+/*
+=========================================
+           END OF PRACTICE SET
+=========================================
+
+*/
+
+
