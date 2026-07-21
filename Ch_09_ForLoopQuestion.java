@@ -476,3 +476,346 @@ class Example15 {
 */
 
 
+
+
+
+
+
+/*
+=========================================
+        CHAPTER 09 - FOR LOOP PRACTICE
+=========================================
+
+File Name:
+Ch_09_ForLoopQuestion.java
+
+            MEDIUM LEVEL
+=========================================
+*/
+
+
+// Q16. Find the sum of numbers from 1 to 10.
+
+class Example16 {
+    public static void main(String[] args) {
+
+        int sum = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q17. Find the sum of numbers from 1 to 100.
+
+class Example17 {
+    public static void main(String[] args) {
+
+        int sum = 0;
+
+        for (int i = 1; i <= 100; i++) {
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q18. Find the sum of even numbers from 1 to 100.
+
+class Example18 {
+    public static void main(String[] args) {
+
+        int sum = 0;
+
+        for (int i = 2; i <= 100; i += 2) {
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q19. Find the sum of odd numbers from 1 to 100.
+
+class Example19 {
+    public static void main(String[] args) {
+
+        int sum = 0;
+
+        for (int i = 1; i <= 100; i += 2) {
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);
+
+    }
+}
+
+
+// Q20. Find the factorial of a number.
+
+class Example20 {
+    public static void main(String[] args) {
+
+        int num = 5;
+        int fact = 1;
+
+        for (int i = 1; i <= num; i++) {
+            fact *= i;
+        }
+
+        System.out.println("Factorial = " + fact);
+
+    }
+}
+
+
+// Q21. Reverse the digits of a number.
+
+class Example21 {
+    public static void main(String[] args) {
+
+        int num = 12345;
+        int reverse = 0;
+
+        for (; num > 0; num /= 10) {
+
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+
+        }
+
+        System.out.println("Reverse = " + reverse);
+
+    }
+}
+
+
+// Q22. Count the number of digits in a number.
+
+class Example22 {
+    public static void main(String[] args) {
+
+        int num = 987654;
+        int count = 0;
+
+        for (; num > 0; num /= 10) {
+            count++;
+        }
+
+        System.out.println("Digits = " + count);
+
+    }
+}
+
+
+// Q23. Find the sum of digits of a number.
+
+class Example23 {
+    public static void main(String[] args) {
+
+        int num = 12345;
+        int sum = 0;
+
+        for (; num > 0; num /= 10) {
+            sum += num % 10;
+        }
+
+        System.out.println("Sum of Digits = " + sum);
+
+    }
+}
+
+
+// Q24. Check whether a number is a palindrome.
+
+class Example24 {
+    public static void main(String[] args) {
+
+        int num = 121;
+        int original = num;
+        int reverse = 0;
+
+        for (; num > 0; num /= 10) {
+
+            int digit = num % 10;
+            reverse = reverse * 10 + digit;
+
+        }
+
+        if (original == reverse) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not Palindrome");
+        }
+
+    }
+}
+
+
+// Q25. Print the Fibonacci series up to N terms.
+
+class Example25 {
+    public static void main(String[] args) {
+
+        int n = 10;
+        int a = 0;
+        int b = 1;
+
+        for (int i = 1; i <= n; i++) {
+
+            System.out.print(a + " ");
+
+            int c = a + b;
+            a = b;
+            b = c;
+
+        }
+
+    }
+}
+
+
+// Q26. Find the largest digit in a number.
+
+class Example26 {
+    public static void main(String[] args) {
+
+        int num = 583921;
+        int largest = 0;
+
+        for (; num > 0; num /= 10) {
+
+            int digit = num % 10;
+
+            if (digit > largest) {
+                largest = digit;
+            }
+
+        }
+
+        System.out.println("Largest Digit = " + largest);
+
+    }
+}
+
+
+// Q27. Find the smallest digit in a number.
+
+class Example27 {
+    public static void main(String[] args) {
+
+        int num = 583921;
+        int smallest = 9;
+
+        for (; num > 0; num /= 10) {
+
+            int digit = num % 10;
+
+            if (digit < smallest) {
+                smallest = digit;
+            }
+
+        }
+
+        System.out.println("Smallest Digit = " + smallest);
+
+    }
+}
+
+
+// Q28. Count even and odd digits in a number.
+
+class Example28 {
+    public static void main(String[] args) {
+
+        int num = 123456789;
+        int even = 0;
+        int odd = 0;
+
+        for (; num > 0; num /= 10) {
+
+            int digit = num % 10;
+
+            if (digit % 2 == 0) {
+                even++;
+            } else {
+                odd++;
+            }
+
+        }
+
+        System.out.println("Even Digits = " + even);
+        System.out.println("Odd Digits = " + odd);
+
+    }
+}
+
+
+// Q29. Print all factors of a number.
+
+class Example29 {
+    public static void main(String[] args) {
+
+        int num = 24;
+
+        for (int i = 1; i <= num; i++) {
+
+            if (num % i == 0) {
+                System.out.println(i);
+            }
+
+        }
+
+    }
+}
+
+
+// Q30. Check whether a number is a prime number.
+
+class Example30 {
+    public static void main(String[] args) {
+
+        int num = 17;
+        boolean isPrime = true;
+
+        if (num <= 1) {
+            isPrime = false;
+        }
+
+        for (int i = 2; i < num; i++) {
+
+            if (num % i == 0) {
+                isPrime = false;
+                break;
+            }
+
+        }
+
+        if (isPrime) {
+            System.out.println("Prime Number");
+        } else {
+            System.out.println("Not a Prime Number");
+        }
+
+    }
+}
+
+
+/*
+=========================================
+        END OF MEDIUM LEVEL
+=========================================
+*/
+
+
