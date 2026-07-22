@@ -883,22 +883,283 @@ class Example20 {
 
 Total Questions: 20
 
-Topics Covered:
 
-✓ Square Patterns
-✓ Rectangle Patterns
-✓ Increasing Patterns
-✓ Decreasing Patterns
-✓ Number Patterns
-✓ Character Patterns
-✓ Right-Aligned Patterns
-✓ Pyramid Patterns
-✓ Inverted Pyramid
-✓ Diamond Pattern
-✓ Hollow Patterns
-✓ 0-1 Patterns
-✓ Palindromic Number Patterns
+=========================================
+*/
 
-Happy Coding! 🚀
+
+/*
+=========================================
+      MORE NESTED LOOP QUESTIONS
+=========================================
+*/
+
+
+// Q21. Print the following pattern.
+
+/*
+*****
+*   *
+*   *
+*   *
+*****
+*/
+
+
+// Q22. Print the following pattern.
+
+/*
+1
+22
+333
+4444
+55555
+4444
+333
+22
+1
+*/
+
+
+// Q23. Print the following pattern.
+
+/*
+12345
+2345
+345
+45
+5
+*/
+
+
+// Q24. Print the following pattern.
+
+/*
+54321
+4321
+321
+21
+1
+*/
+
+
+// Q25. Print the following pattern.
+
+/*
+1
+21
+321
+4321
+54321
+*/
+
+
+// Q26. Print the following pattern.
+
+/*
+12345
+2345
+345
+45
+5
+*/
+
+
+// Q27. Print the following pattern.
+
+/*
+*****
+****
+***
+**
+*
+*
+**
+***
+****
+*****
+*/
+
+
+// Q28. Print the following pattern.
+
+/*
+1
+12
+123
+1234
+12345
+1234
+123
+12
+1
+*/
+
+
+// Q29. Print the following pattern.
+
+/*
+    1
+   12
+  123
+ 1234
+12345
+*/
+
+
+// Q30. Print the following pattern.
+
+/*
+12345
+ 1234
+  123
+   12
+    1
+*/
+
+
+// Q31. Print the following hollow triangle.
+
+/*
+    *
+   * *
+  *   *
+ *     *
+*********
+*/
+
+
+// Q32. Print the following inverted hollow triangle.
+
+/*
+*********
+ *     *
+  *   *
+   * *
+    *
+*/
+
+
+// Q33. Print the following pattern.
+
+/*
+1
+01
+101
+0101
+10101
+010101
+*/
+
+
+// Q34. Print the following pattern.
+
+/*
+A
+BB
+CCC
+DDDD
+EEEEE
+*/
+
+
+// Q35. Print the following pattern.
+
+/*
+ABCDE
+ABCD
+ABC
+AB
+A
+*/
+
+
+// Q36. Print the following pattern.
+
+/*
+A
+BA
+CBA
+DCBA
+EDCBA
+*/
+
+
+// Q37. Print the following pattern.
+
+/*
+1
+23
+456
+789
+101112
+*/
+
+
+// Q38. Print the following pattern.
+
+/*
+1
+22
+333
+4444
+55555
+4444
+333
+22
+1
+*/
+
+
+// Q39. Print the following pattern.
+
+/*
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
+*/
+
+
+// Q40. Print the following pattern.
+
+/*
+    1
+   121
+  12321
+ 1234321
+123454321
+ 1234321
+  12321
+   121
+    1
+*/
+
+
+/*
+=========================================
+        END OF QUESTIONS
+=========================================
+
+Total New Questions: 20
+
+New Range:
+Q21 - Q40
+
+Focus Areas:
+✓ Nested loops
+✓ Number patterns
+✓ Character patterns
+✓ Hollow patterns
+✓ Pyramid patterns
+✓ Inverted patterns
+✓ Diamond patterns
+✓ Palindrome patterns
+
 =========================================
 */
